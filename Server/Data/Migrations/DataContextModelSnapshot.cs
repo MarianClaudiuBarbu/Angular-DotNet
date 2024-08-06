@@ -22,7 +22,6 @@ namespace DatingApp.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-<<<<<<< HEAD
                     b.Property<byte[]>("PasswordHash")
                         .IsRequired()
                         .HasColumnType("BLOB");
@@ -31,8 +30,6 @@ namespace DatingApp.Data.Migrations
                         .IsRequired()
                         .HasColumnType("BLOB");
 
-=======
->>>>>>> f9829163edd5e20a41c80cd411859614f34cd189
                     b.Property<string>("UserName")
                         .IsRequired()
                         .HasColumnType("TEXT");
